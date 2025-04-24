@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA HUD</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #e6edf3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+        .alert {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+            box-shadow: 0 0 10px rgba(88, 166, 255, 0.2);
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            background-color: #238636;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buttons button:nth-child(2) {
+            background-color: #58a6ff;
+        }
+        .buttons button:nth-child(3) {
+            background-color: #f0b400;
+        }
+    </style>
+</head>
+<body>
+    <h1>NOVA HUD ACTIVE</h1>
+    <div class="alert">
+        <p><strong>SPY $510 CALL</strong></p>
+        <p>Confidence: 92% (Quantum Sim.)</p>
+        <p>Entry: $2.50</p>
+        <p>Potential: +150%</p>
+        <div class="buttons">
+            <button>View Trade</button>
+            <button>Execute Now</button>
+            <button>Upgrade Plan</button>
+        </div>
+    </div>
+</body>
+</html>
