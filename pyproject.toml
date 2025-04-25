@@ -1,0 +1,6 @@
+[project]
+name = "nova-wsb-aiwatcher"
+version = "0.1.0"
+description = "WSB Reddit + Telegram stock alert bot"
+requires-python = ">=3.9"
+dependencies = []
